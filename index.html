@@ -49,7 +49,7 @@ padding:60px 20px;
 position:relative;
 }
 
-/* EFECTO OSCURO SOBRE FONDOS */
+/* Para dar un efecto oscuro en el fondooo */
 .overlay{
 position:absolute;
 top:0;
@@ -66,7 +66,7 @@ z-index:2;
 max-width:900px;
 }
 
-/* IMAGEN SUPERIOR */
+/* Imagen superior */
 .top-banner{
 height:250px;
 margin-top:10px;
@@ -74,10 +74,9 @@ background:
 linear-gradient(to bottom, rgba(0,0,0,0) 60%, black 100%),
 url("fotosup.png") center/cover no-repeat;
 }
-/* PORTADA */
+/* Portada */
 .portada{
 background:url("xv.jfif") center/cover no-repeat;
-/* CAMBIA POR TU FOTO PRINCIPAL */
 }
 
 h1{
@@ -101,7 +100,7 @@ margin-right:auto;
 line-height:1.6;
 }
 
-/* CONTADOR */
+/* Contador para fecha */
 .contador{
 display:flex;
 gap:20px;
@@ -127,13 +126,13 @@ font-weight:bold;
 font-size:0.8rem;
 }
 
-/* FECHA GRANDE */
+/* Fecha grandota */
 .fecha-grande{
 font-size:4rem;
 font-family:'Cinzel', serif;
 }
 
-/* BOTONES */
+/* Botones */
 .boton{
 margin-top:20px;
 padding:12px 25px;
@@ -148,7 +147,7 @@ transition:0.3s;
 background:#145c44;
 }
 
-/* ANIMACIÓN SCROLL */
+/* Animación del scroll */
 .fade{
 opacity:0;
 transform:translateY(40px);
@@ -159,12 +158,12 @@ transition:all 1s ease;
 opacity:1;
 transform:translateY(0);
 }
-/* SECCION FECHA POSICIONES */
+/* Posición de la fecha */
 .seccion-fecha{
 position:relative;
 }
 
-/* FECHA CENTRADA */
+/* Centrar fecha */
 .fecha-grande{
 position:absolute;
 top:50%;
@@ -175,7 +174,7 @@ font-family:'Cinzel', serif;
 white-space:nowrap; /* evita que se rompa la línea */
 }
 
-/* PADRES ARRIBA IZQUIERDA */
+/* Nombres de padrinos a la derecha */
 .padrinos{
 position:absolute;
 top:120px;
@@ -184,7 +183,7 @@ text-align:right;
 max-width:500px;
 }
 
-/* PADRINOS ABAJO DERECHA */
+/* Nombre de padreas a la izquierda */
 .padres{
 position:absolute;
 bottom:120px;
@@ -193,7 +192,7 @@ text-align:left;
 max-width:500px;
 }
 
-/* NOMBRES MÁS ANCHOS */
+/* Nombres mas anchos */
 .columna p{
 font-size:1.2rem;
 white-space:nowrap; /* evita salto de línea */
@@ -204,7 +203,7 @@ margin-top:25px;
 opacity:0.7;
 font-style:italic;
 }
-/* 📱 AJUSTES PARA CELULAR */
+/* Para el celular */
 @media (max-width: 768px){
 
 h1{
@@ -228,7 +227,7 @@ font-size:0.9rem;
 padding:0 10px;
 }
 
-/* PADRES Y PADRINOS SE ACOMODAN */
+/* Padres y padrinos se acomodan */
 .padrinos,
 .padres{
 position:static;
@@ -236,14 +235,14 @@ text-align:center;
 margin-top:20px;
 }
 
-/* QUITA POSICIÓN ABSOLUTA EN CELULAR */
+/* Quitamos posicion absoluta en el celular */
 .seccion-fecha .content{
 display:flex;
 flex-direction:column;
 align-items:center;
 }
 
-/* CONTADOR MÁS CHICO */
+/* Contador mas chico */
 .caja{
 padding:10px;
 min-width:70px;
@@ -253,7 +252,7 @@ min-width:70px;
 font-size:1.2rem;
 }
 
-/* BOTÓN MÁS BONITO */
+/* Boton mas bonito */
 .boton{
 padding:10px 20px;
 font-size:0.9rem;
@@ -265,10 +264,10 @@ font-size:0.9rem;
 
 <body>
 
-<!-- 1️⃣ IMAGEN SUPERIOR -->
+<!-- Imagen superior -->
 <div class="top-banner"></div>
 
-<!-- 2️⃣ PORTADA -->
+<!-- Portada -->
 <section class="portada">
 <div class="overlay"></div>
 <div class="content fade">
@@ -289,7 +288,7 @@ pero poder compartirlos con quienes más queremos los convierte en recuerdos ino
 </div>
 </section>
 
-<!-- 3️⃣ FECHA GRANDE -->
+<!-- Fecha grande -->
 <section class="seccion-fecha" style="background:url('22.png') center/cover no-repeat;">
 <div class="overlay"></div>
 
@@ -312,7 +311,7 @@ pero poder compartirlos con quienes más queremos los convierte en recuerdos ino
 </div>
 </section>
 
-<!-- 5️⃣ CEREMONIA -->
+<!-- Ceremonia -->
 <section style="background:url('capilla.jpeg') center/cover no-repeat;">
 <div class="overlay"></div>
 <div class="content fade">
@@ -328,7 +327,7 @@ Ubicación
 </div>
 </section>
 
-<!-- 6️⃣ RECEPCIÓN -->
+<!-- Recepción -->
 <section style="background:url('recepcion.jpeg') center/cover no-repeat;">
 <div class="overlay"></div>
 <div class="content fade">
@@ -344,7 +343,7 @@ Ubicación
 </div>
 </section>
 
-<!-- 7️⃣ CÓDIGO DE VESTIMENTA -->
+<!-- Codigo de vestimenta -->
 <section style="background:url('vestimentaa.png') center/cover no-repeat;">
 <div class="overlay"></div>
 <div class="content fade">
@@ -358,7 +357,7 @@ Evitar colores azul marino, azul petróleo y dorado, colores exclusivos para la 
 </div>
 </section>
 
-<!-- 8️⃣ CONFIRMACIÓN -->
+<!-- Confirmación -->
 <section style="background:url('asistencia.png') center/cover no-repeat;">
 <div class="overlay"></div>
 <div class="content fade">
@@ -374,7 +373,7 @@ Confirmar por WhatsApp
 
 <script>
 
-/* CONTADOR */
+/* Contador */
 const fechaEvento = new Date("December 27, 2026 00:00:00").getTime();
 
 setInterval(() => {
@@ -387,7 +386,7 @@ document.getElementById("minutos").innerHTML = Math.floor((diferencia % (1000*60
 document.getElementById("segundos").innerHTML = Math.floor((diferencia % (1000*60)) / 1000);
 },1000);
 
-/* EFECTO SCROLL */
+/* ScrollL */
 const faders = document.querySelectorAll(".fade");
 
 const appearOptions = {
