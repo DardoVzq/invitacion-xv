@@ -204,7 +204,58 @@ margin-top:25px;
 opacity:0.7;
 font-style:italic;
 }
+/* 📱 AJUSTES PARA CELULAR */
+@media (max-width: 768px){
 
+h1{
+font-size:2.2rem;
+}
+
+h2{
+font-size:1.4rem;
+}
+
+.fecha-grande{
+font-size:2.2rem;
+}
+
+.frase{
+font-size:0.9rem;
+padding:0 10px;
+}
+
+/* PADRES Y PADRINOS SE ACOMODAN */
+.padrinos,
+.padres{
+position:static;
+text-align:center;
+margin-top:20px;
+}
+
+/* QUITA POSICIÓN ABSOLUTA EN CELULAR */
+.seccion-fecha .content{
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+/* CONTADOR MÁS CHICO */
+.caja{
+padding:10px;
+min-width:70px;
+}
+
+.numero{
+font-size:1.2rem;
+}
+
+/* BOTÓN MÁS BONITO */
+.boton{
+padding:10px 20px;
+font-size:0.9rem;
+}
+
+}
 </style>
 </head>
 
